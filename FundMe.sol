@@ -2,14 +2,11 @@
 
 pragma solidity >=0.6.0 <0.9.0;
 
-//importing from NPM/Github
-
-import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 import "./ConversionFolder/ConversionApp.sol";
 import "./ConversionFolder/NetworkType.sol";
 
 contract FundMe{
-    mapping(address => uint256) public addressToAmountFunded;
+    mapping(address => uint256) private addressToAmountFunded;
     address[] funders;
     address public owner;
     uint256 public minimumUSDThreshold = 0;
