@@ -43,6 +43,7 @@ To see the minimum threshold for funding, you can use minimumUSDThreshold variab
 
 ### Fund 
 To fund to the contract owner, you must set a value in terms of corresponding chosen currency (Wei, Gwei, Finney, ETH). 
+
 ![Currencies For Transaction](https://res.cloudinary.com/dpzdg2rik/image/upload/v1643560239/samples/FundMeSolidity/currenciesfortransaction.png)
 
 
@@ -77,17 +78,12 @@ To withdraw all the funds, you must execute withdraw function. Once you execute 
 
 ### Seeing All the Funders and Their Funds (Contract Owner Only)
 To see all the funders to the contract and the fund amounts, call seeAllFundsAndFunders function.
+
 ![Seeing All Funders and Their Funds](https://res.cloudinary.com/dpzdg2rik/image/upload/v1643562686/samples/FundMeSolidity/seeallfunds.png)
  
 You can match the funders and their funds according to their order. For example address 0xABdeE0BF5dF1049c1a6EB74a0aEeF6E353F3D916 (address[] index 0) funded 20000000000000000 (uint256[] index 0) to the contract. Samewise, 
 address 0x7e1a8502a8AbaC18618921572edAD1A43aE3Cc24 (address[] index 1) funded 20000000000000000 (uint256[] index 1) to the contract.
 
-
+And you're done! Congratulations!
 
 ## ! You can use https://eth-converter.com/ website to convert between the ETH-WEI-GWEI
-
-
-
-
-
-# And you're done! Congratulations!
